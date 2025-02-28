@@ -20,6 +20,6 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST }}
         with:
           args: >
-            -Dsonar.projectKey=springboot-project
-            -Dsonar.projectName=Spring Boot Project
+            -Dsonar.projectKey=mall
+            -Dsonar.projectName=mall
             -Dsonar.java.binaries=target/classes
