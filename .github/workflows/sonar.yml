@@ -28,4 +28,4 @@ jobs:
           args: >
             -Dsonar.projectKey=mall
             -Dsonar.projectName=mall
-            -Dsonar.java.binaries=target/classes
+            -Dsonar.java.binaries=**/target/classes
